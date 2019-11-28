@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.kitkaty.ps">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/Plant_Safe"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".InicialActivity"/>
+        <activity android:name=".CadastrarActivity"/>
+        <activity android:name=".ConfiguracoesActivity"/>
+        <activity android:name=".FaleConoscoActivity"/>
+        <activity android:name=".MeuPerfilActivity"/>
+        <activity android:name=".MeusRegistros"/>
+        <activity android:name=".EditarPerfilActivity"/>
+        <activity android:name=".PlantSafeActivity"/>
+
+        <activity android:name=".SplashScreen"
+            android:label="Plant Safe">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".MainActivity"
+            android:label="@string/Plant_Safe">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>
+
+<!--<activity
+android:name="br.com.kitkaty.myapplication9.MainActivity"
+android:label="@string/app_name"
+android:theme="@style/AppTheme.NoActionBar">
+<intent-filter>
+    <action android:name="android.br.com.kitkaty.plantsafe.MainActivity" />
+
+    <category android:name="android.intent.category.DEFAULT" />
+</intent-filter>
+</activity>-->

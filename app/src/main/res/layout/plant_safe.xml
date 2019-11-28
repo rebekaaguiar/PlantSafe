@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/text_slideshow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:text="PlantSafe" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/horta"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/txtPropaganda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="O mais novo dispositivo criado pela CCRV Company veio para lhe auxiliar na hora regar as plantas! Com poucos passos você nunca mais vai esquecer quando regar o seu jardim" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:id="@+id/txtExplicacao"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="1° Passo"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txtPasso1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Basta criar uma conta! Não se preocupe, isso é rápido!"/>
+        <TextView
+            android:id="@+id/txtExplicacao2"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="2° Passo"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtPasso2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Após isso é só configurar seu Plant Safe, marcando quais opções se enquadram no seu perfil. Você escolhe tudo e pode alterar suas preferências a qualquer hora"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <!--aqui vai ficar a foto do login e da tela de configuração
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/horta"/>-->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:id="@+id/txtFim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Tudo configurado? Agora é só relaxar sabendo que suas plantas estão em boas mãos! Agradecemos a sua preferência em optar por usar o Plant Safe!"/>
+        <!--aqui vai ficar a foto do arduino molhando as plantas
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/horta"/>-->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TextView
+            android:id="@+id/txtGaleria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Não esqueça de compartilhar sua horta conosco!"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <Button
+            android:id="@+id/btnVoltarMenuPS"
+            android:layout_width="150dp"
+            android:layout_marginLeft="120dp"
+            android:layout_height="wrap_content"
+            android:text="Menu" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <!--colocar botao? para voltar?-->
+    </LinearLayout>
+
+</ScrollView>

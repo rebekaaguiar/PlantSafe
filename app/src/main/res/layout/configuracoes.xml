@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfiguracoesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtConfiguracoes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Configurações"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+        <CheckBox
+            android:id="@+id/ckSoloSeco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quando o solo estiver seco" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+        <TextView
+            android:id="@+id/txt_tipoUmidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quando a umidade estiver abaixo de:" />
+
+        <Spinner
+            android:id="@+id/spTempEs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/Umidade"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+        <CheckBox
+            android:id="@+id/ckTodosDias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Todos os dias" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+
+        <TextView
+            android:id="@+id/txtDiasEspe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Regar apenas nos dias:" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <CheckBox
+                    android:id="@+id/SegundaFeira"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Segunda_Feira"/>
+                <CheckBox
+                    android:id="@+id/TercaFeira"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Terca_Feira"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <CheckBox
+                    android:id="@+id/QuartaFeira"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Quarta_Feira"/>
+                <CheckBox
+                    android:id="@+id/QuintaFeira"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Quinta_Feira"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <CheckBox
+                    android:id="@+id/SextaFeira"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Sexta_Feira"/>
+                <CheckBox
+                    android:id="@+id/Sabado"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Sabado"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <CheckBox
+                    android:id="@+id/Domingo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/Domingo"/>
+            </TableRow>
+        </TableLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/btnSalvarP"
+                    android:layout_width="150dp"
+                    android:layout_marginLeft="25dp"
+                    android:layout_height="wrap_content"
+                    android:text="Salvar"/>
+
+                <Button
+                    android:id="@+id/btnVoltarC"
+                    android:layout_width="150dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_height="wrap_content"
+                    android:text="Menu"/>
+            </TableRow>
+        </TableLayout>
+
+
+
+    </LinearLayout>
+    <!--Acrescentar mais tableRow com os botoes voltar e salvar?
+
+        -->
+</ScrollView>

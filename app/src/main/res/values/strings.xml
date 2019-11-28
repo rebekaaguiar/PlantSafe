@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">PS</string>
+
+
+
+
+    <string name="Segunda_Feira">Segunda-Feira</string>
+    <string name="Terca_Feira">Terça-Feira</string>
+    <string name="Quarta_Feira">Quarta-Feira</string>
+    <string name="Quinta_Feira">Quinta-Feira</string>
+    <string name="Sexta_Feira">Sexta-Feira</string>
+    <string name="Sabado">Sábado</string>
+    <string name="Domingo">Domingo</string>
+    <string name="Cadastrar">Cadastrar</string>
+    <string name="Plant_Safe">Plant Safe</string>
+    <string name="Salvar_Alteracoes">Salvar Alterações</string>
+
+    <string-array name="Umidade">
+        <item>Abaixo de 80%</item>
+        <item>Abaixo de 50%</item>
+        <item>Abaixo de 30%</item>
+        <item>Abaixo de 0%</item>
+    </string-array>
+
+    <string-array name="Tipo">
+        <item>Residencial</item>
+        <item>Horta</item>
+        <item>Granja</item>
+    </string-array>
+
+    <string-array name="Filtro">
+        <item>Crítica</item>
+        <item>Elogio</item>
+        <item>Dúvida</item>
+        <item>Informar um problema</item>
+    </string-array>
+</resources>
